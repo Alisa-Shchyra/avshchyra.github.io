@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.center {
+  align-self: center;
+}
+
+
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+}
+
+.title, .controls, .button {
+  flex: none;
+}
+
+.button {
+  padding: 15px 35px;
+}
+
+.todo-delete {
+  margin: 10px;
+}
+
+
